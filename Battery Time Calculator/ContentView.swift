@@ -11,12 +11,15 @@ struct ContentView: View {
     var body: some View {
         HStack {
             VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("Hello, world!")
+                Text("(Insert Battery Here)%")
+                    .font(.custom(
+                        "AvenirNext-Bold",
+                        fixedSize:33))
+                HStack {
+                    
+                }
             }
-            .padding()
+            .Padding()
         }
     }
 }
